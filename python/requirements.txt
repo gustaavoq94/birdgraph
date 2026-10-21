@@ -1,0 +1,16 @@
+# nucleo del analisis (lo unico que necesita el modo offline)
+numpy>=1.24
+scipy>=1.10
+
+# modo en vivo (birdgraph_live.py)
+pyqtgraph>=0.13
+PyOpenGL>=3.1
+PyQt5>=5.15
+sounddevice>=0.4
+
+# OJO: headless, NO opencv-python. La version normal trae sus propias
+# librerias de Qt y choca con PyQt5.
+opencv-python-headless>=4.8
+
+# modo offline still/video (birdgraph.py)
+matplotlib>=3.7

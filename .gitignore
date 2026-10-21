@@ -1,0 +1,39 @@
+# ---- Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ---- Android / Gradle
+*.iml
+.gradle/
+local.properties
+.idea/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# ---- salidas del proyecto
+*.mp4
+*.wav
+*.mp3
+*.flac
+*.m4a
+*_features.csv
+*_graph.png
+out/
+# las capturas del README si entran
+!docs/images/*.png
+!docs/images/*.gif
+
+# ---- SO
+.DS_Store
+Thumbs.db
